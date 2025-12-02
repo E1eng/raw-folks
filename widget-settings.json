@@ -1,1 +1,761 @@
-{"element":"debridgeWidget","title":"","description":"","width":"600","height":"800","isAutoHeight":false,"r":null,"affiliateFeePercent":"0.3","affiliateFeeRecipient":"0x8c317fb91a73e2c8d4883dded3981982f046f733","supportedChains":{"inputChains":{"1":"all","10":"all","56":"all","100":"all","137":"all","143":"all","146":"all","747":"all","999":"all","1329":"all","1514":"all","1776":"all","2741":"all","5000":"all","8453":"all","9745":"all","32769":"all","42161":"all","43114":"all","50104":"all","59144":"all","60808":"all","80094":"all","999999":"all","7565164":"all","245022934":"all","728126428":"all"},"outputChains":{"1":"all","10":"all","56":"all","100":"all","137":"all","143":"all","146":"all","747":"all","999":"all","1329":"all","1514":"all","1776":"all","2741":"all","5000":"all","8453":"all","9745":"all","32769":"all","42161":"all","43114":"all","50104":"all","59144":"all","60808":"all","80094":"all","999999":"all","7565164":"all","245022934":"all","728126428":"all"}},"inputChain":8453,"outputChain":1514,"inputCurrency":"","outputCurrency":"","address":"","showSwapTransfer":true,"amount":"","outputAmount":"","isAmountFromNotModifiable":false,"isAmountToNotModifiable":false,"lang":"en","mode":"DESWAP","isEnableCalldata":false,"styles":{},"theme":"dark","isHideLogo":false,"logo":"","disabledWallets":[],"disabledElements":["Points"]}
+# Welcome to Folks Finance
+
+Welcome to Folks Finance official documentations.&#x20;
+
+Initially the leading DeFi protocol on Algorand, Folks has evolved into a dynamic, multichain DeFi hub, leveraging messaging layers technology for expansive growth. With its innovative hub-and-spoke model, the platform offers a seamless, intuitive user experience, abstracting the complexities of cross-chain interactions.&#x20;
+
+# Folks Finance Algorand app documentation
+
+Folks Finance is a non-custodial DeFi protocol providing tools for digital assets. Smart-contract technology empowers Folks Finance to offer advanced strategies while eliminating risks of centralized interference. Users can deposit assets to **earn** yield, as well as use their deposits as collateral for **loans**. Integration of the **Folks Router DEX aggregator** enables native swaps on the protocol and composability with the other operations. **Flash loans** give developers the keys to deep liquidity. **Algo Liquid Governance** and **Cross-chain Algo Liquid** Governance provide the most efficient method of participating in Algorand Governance through gALGO and xALGO, whose use cases continue to expand rapidly.
+
+
+Folks Finance is a non-custodial DeFi protocol providing tools for digital assets. Smart-contract technology empowers Folks Finance to offer advanced strategies while eliminating risks of centralized interference. Users can deposit assets to **earn** yield, as well as use their deposits as collateral for **loans**. Integration of the **Folks Router DEX aggregator** enables native swaps on the protocol and composability with the other operations. **Flash loans** give developers the keys to deep liquidity. **Algo Liquid Governance** and **Cross-chain Algo Liquid** Governance provide the most efficient method of participating in Algorand Governance through gALGO and xALGO, whose use cases continue to expand rapidly.
+
+## Swap and Deposit
+
+{% embed url="<https://youtu.be/Tm82uaFb-Ws>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. Find the asset you want to deposit in the Available to Deposit table, on the Deposit page.
+2. \- If the wallet balance of the chosen asset is zero, click Swap and Deposit.\
+   \- If the wallet balance of the chosen asset is greater than zero, but you want to deposit more, click Deposit and switch to Swap and Deposit in the Deposit modal.&#x20;
+3. Select the asset to swap with.
+4. Type in the amount.
+5. Click on Swap and Deposit.
+6. Sign with your wallet.
+
+## Withdraw
+
+{% embed url="<https://www.youtube.com/watch?v=wjZitraQU2I>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. Find the asset you want to withdraw in the Your Deposit table, on the Deposit page.
+2. Click on Withdraw. A modal will appear.
+3. Type in the amount you want to withdraw.
+4. Click on Withdraw.
+# Collateral
+
+## Collateralize
+
+{% embed url="<https://youtu.be/GkcInCThfSo>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. Find the asset you want to use as collateral in the Available to Collateralize table, on the Loans page.
+2. Click on Collateralize. A modal will appear.
+3. Choose the loan you want to deposit in.
+4. Type in the amount you want to use.
+5. Click Collateralize.
+6. Sign with your wallet.
+
+## Swap and Collateralize
+
+{% embed url="<https://youtu.be/wBOVn-JuoDc>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. Find the asset you want to use as collateral in the Available to Collateralize table, on the Loans page.
+2. \- If the wallet balance of the chosen asset is zero, click Swap and Collateralize.\
+   \- If the wallet balance of the chosen asset is greater than zero, but you want more, click Collateralize and switch to Swap and Collateralize.&#x20;
+3. Choose the loan you want to add collateral to.
+4. Select the asset to swap with.
+5. Click on Swap and Collateralize.
+6. Sign with your wallet.
+
+## Add collateral (Loan page)
+
+{% embed url="<https://youtu.be/9SQxko1Hg1Y>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. In the Loans page, Your loan table, click on the Manage button for the loan you want to add collateral to.
+2. Once you enter the loan page, click Add next to the token to which you want to add amounts.
+3. Type in the amount you want to use.
+4. Click Collateralize.
+5. Sign with your wallet.
+
+## Swap collateral (Loan page)
+
+{% embed url="<https://youtu.be/RG1b2Rs1RQo>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. In the Loans page, Your loan table, click on the Manage button.
+2. Once you enter the loan page, in the table your collateral, click on Swap next to the collateral you want to swap.
+3. Select the asset to swap with.
+4. Click on Swap collateral.
+5. Sign with your wallet.
+
+## Move to Collateral
+
+1. Click on Move to collateral on the Deposit page, Your Deposit table. A modal will appear.
+2. Choose the loan you want to add collateral to.
+3. Type in the amount you want to move.
+4. Click Move to collateral.
+5. Sign with your wallet.
+
+## Reduce Collateral
+
+1. Click on Manage on the Loans page, Your Loan table.&#x20;
+2. Once you enter the loan page, click Reduce next to the token to which you want to reduce amounts.
+3. Type in the amount you want to withdraw.
+4. Click Reduce collateral.
+5. Sign with your wallet.
+# Borrow
+
+## Borrow (Dashboard)
+
+1. On the Loans page, Available to Borrow table, click on Borrow. A modal will appear.
+2. Choose the loan you want to borrow in.
+3. Type in the amount you want to borrow.
+4. Choose between stable or variable APY.
+5. Click Borrow.
+6. Sign with your wallet.
+
+## Borrow (Loan Page)
+
+1. In the Loans page, Your loan table, click on Manage.&#x20;
+2. Once you are on the loan page, click on Borrow next to the token you want to borrow.
+3. Type in the amount you want to borrow.
+4. Choose between stable or variable APY.
+5. Click Borrow.
+6. Sign with your wallet.
+
+## Repay
+
+{% embed url="<https://youtu.be/yS0ozO1Ma7M>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. In the Loans page, Your loan table, click on Manage.&#x20;
+2. Once you are on the loan page, click on Repay next to the token you want to repay.
+3. Type in the amount you want to repay.
+4. Click on Repay.
+5. Sign with your wallet.
+
+## Repay using another asset
+
+{% embed url="<https://youtu.be/q3cDiZ-dn-E>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+1. In the Loans page, Your loan table, click on Manage.&#x20;
+2. Once you are on the loan page, click on Repay next to the token you want to repay.
+3. Click on Use another asset.
+4. Select the asset to repay with.
+5. Type in the amount.
+6. Click on Repay.
+7. Sign with your wallet.
+
+## Repay using collateral
+
+{% embed url="<https://youtu.be/XzrRQVTw3wY>" %}
+The UI undergoes regular upgrades; what you see in the video may look slightly different than what you see on the app.
+{% endembed %}
+
+{% hint style="info" %}
+Please note.
+
+During the [Redeem](https://docs.folks.finance/functionalities/loan/broken-reference) period of ALGO Liquid Governance, repaying an ALGO loan with gALGO will be done by redeeming the gALGO instead of the swapping.
+{% endhint %}
+
+1. In the Loans page, Your loan table, click on Manage.&#x20;
+2. Once you are on the loan page, click on Repay next to the token you want to repay.
+3. Click on Use collateral.
+4. Select the asset to repay with.
+5. Type in the amount.
+6. Click on Repay.
+7. Sign with your wallet.
+# Swap and...
+
+## Swap
+
+1. In the header, click on Swap. A modal will appear.
+2. Select two assets to make the swap with.
+3. Type in the amount.
+4. Click on Swap.
+5. Sign with your wallet.
+
+## Swap and Deposit
+
+1. Find the asset you want to deposit in the Available to Deposit table, on the Deposit page.
+2. \- If the wallet balance of the chosen asset is zero, click Swap and deposit.\
+   \- If the wallet balance of the chosen asset is greater than zero, but you want to deposit more, click Deposit and switch to Swap and Deposit in the Deposit modal.&#x20;
+3. Select the asset to swap with.
+4. Type in the amount.
+5. Click on Swap and Deposit.
+6. Sign with your wallet.
+
+## Swap and Collateralize
+
+1. Find the asset you want to use as collateral in the Available to Collateralize table, on the Loans page.
+2. \- If the wallet balance of the chosen asset is zero, click Swap and Collateralize.\
+   \- If the wallet balance of the chosen asset is greater than zero, but you want more, click Collateralize and switch to Swap and Collateralize.&#x20;
+3. Choose the loan you want to add collateral to.
+4. Select the asset to swap with.
+5. Click on Swap and Collateralize.
+6. Sign with your wallet.
+
+## Swap collateral (Loan page)
+
+1. In the Loans page, Your loan table, click on the Manage button.
+2. Once you enter the loan page, in the table your collateral, click on Swap next to the collateral you want to swap.
+3. Select the asset to swap with.
+4. Click on Swap collateral.
+5. Sign with your wallet.
+
+## Repay using another asset
+
+1. In the Loans page, Your loan table, click on Manage.&#x20;
+2. Once you are on the loan page, click on Repay next to the token you want to repay.
+3. Click on Use another asset.
+4. Select the asset to repay with.
+5. Type in the amount.
+6. Click on Repay.
+7. Sign with your wallet.
+
+## Swap and Commit
+
+1. On Your Wallet table, click on Swap and Commit.
+2. Select the asset to make the swap with.
+3. Type in the amount you want to swap.
+4. Click on Swap and Commit.
+5. Sign with your wallet.
+# xALGO - Liquid Staking
+
+Algorand is undergoing a significant shift from its traditional governance rewards system to a new consensus rewards model. This transition marks a strategic evolution in how Algorand incentivizes network participation, aligning with its commitment to decentralization and security.
+
+#### Why the Change?
+
+The shift to consensus rewards is driven by the goal of directly incentivizing participation in the network’s core consensus mechanism, rather than governance alone. While governance rewards were designed to encourage community engagement in decision-making, consensus rewards focus on rewarding those who actively contribute to the security and operation of the Algorand blockchain.
+
+#### Folks Finance's xALGO and the Shift to Consensus Rewards
+
+The transition from governance rewards to consensus rewards in Algorand is directly tied to the evolution of xALGO. As Algorand shifts its focus toward incentivizing consensus participation, xALGO has been adapted to align with this new rewards structure. Previously, xALGO was associated with governance rewards, allowing users to stake their ALGO and earn rewards. With the introduction of consensus rewards, xALGO now represents staked ALGO and the relative consensus rewards.
+
+#### What is xALGO?
+
+Folks Finance's xALGO is the primary liquid staking token on the Algorand blockchain. It represents staked ALGO and allows users to earn Algorand Consensus Rewards while remaining liquid on DeFi. By staking ALGO through Folks Finance, users receive xALGO tokens, which accrue value over time as they earn rewards. These tokens can be traded, used as collateral, or borrowed against within the DeFi ecosystem, offering flexibility and continuous yield generation. The value of xALGO increases relative to ALGO as it collects rewards, and it can be redeemed for ALGO at any time.
+
+### **How Does xALGO Work?**
+
+{% embed url="<https://youtu.be/5ZiCiHiG0QA?si=G6bJvHzkj8bqC-lg>" %}
+
+***
+
+### How to Stake
+
+1. Click on Stake in the top menu.
+2. Enter the amount of ALGO you wish to stake.
+3. Click on Stake and complete the process by signing with your wallet.
+
+### How to Ultrastake
+
+{% embed url="<https://youtu.be/wDnj5YN-Y1s>" %}
+
+1. Click on Stake in the top menu.
+2. Enter the amount of ALGO you wish to stake.
+3. Toggle the Ultrastake button to On.
+4. Select the leverage level that best suits your preferences.
+5. Choose between Variable or Stable APY.
+6. Click on Ultrastake and complete the process by signing with your wallet.
+
+### How to Unstake
+
+1. Switch to the Unstake tab.
+2. Enter the amount of xALGO you wish to unstake.
+3. Click on Unstake and finalize the process by signing with your wallet.
+
+### How to Unstake an Ultrastake Position
+
+1. Navigate to your Ultrastake position.
+2. Click on Unstake and complete the process by signing with your wallet.
+
+***
+
+#### **Staking Rewards Fee Policy**
+
+The protocol retains a 10% fee exclusively on staking rewards, with all collected fees directed to the community treasury.
+
+***
+
+**Staking ALGO to Receive xALGO**
+
+Users can stake ALGO by depositing it into Folks Finance’s Liquid Staking system
+
+$$
+\text{xALGO}\_{\text{received}} = \text{user\_stake} \times \text{rate} \times (1 - \text{premium})
+$$
+
+Where:
+
+* $${user\_stake}$$ is the amount of ALGO the user is willing to stake
+* $$\text{rate}$$ is the current exchange rate between ALGO and xALGO&#x20;
+
+$$
+\text{rate} = \frac{\text{xALGO circulating}}{\text{total\_active\_stake} + \text{total\_rewards} - \text{total\_unclaimed\_fees}}
+$$
+
+* $$\text{premium}$$ is the adjustment factor for immediate minting
+
+{% hint style="info" %}
+Premium in xALGO minting compensates for the 320-round delay before newly staked ALGO begins earning rewards. Without it, immediate minters could unfairly benefit from rewards generated by other users’ staked ALGO during this delay. The premium ensures fair distribution of rewards across all participants.
+{% endhint %}
+
+**Earning Rewards**
+
+xALGO is designed to continuously increase in value as it accrues Algorand Consensus Rewards. These rewards are compounded into the xALGO token, increasing its value relative to ALGO.
+
+**Using xALGO**
+
+* **Deposit**: Users can deposit xALGO in Folks Finance
+* **Collateralization:** xALGO can be used as collateral within the Folks Finance platform, allowing users to borrow against their staked assets.
+* **Borrowing:** Users can borrow xALGO&#x20;
+* **Ultrastake:** Users can employ strategies to maximize their returns by leveraging xALGO within the lending markets.
+
+**Unstaking xALGO**&#x20;
+
+Users can unstake xALGO to redeem their underlying ALGO at any time.
+
+$$
+\text{ALGO}\_{\text{received}} = \frac{\text{user\_unstake}}{\text{rate}}
+$$
+
+Where:&#x20;
+
+* $${user\_unstake}$$ is the amount of ALGO the user is willing to unstake
+* $$\text{rate}$$ is the current exchange rate between ALGO and xALGO.
+
+**Advantages of xALGO**
+
+• Continuous Yield: xALGO automatically accrues Algorand Consensus Rewards without the need for active management.
+
+• Liquidity: Users can maintain liquidity while staking, allowing them to participate in the DeFi ecosystem.
+
+• Flexibility: xALGO can be used in various strategies, from borrowing to leveraged staking.
+
+***
+
+{% content-ref url="broken-reference" %}
+[Broken link](https://docs.folks.finance/functionalities/broken-reference)
+{% endcontent-ref %}
+# How to Migrate from gALGO to xALGO
+
+
+1. Visit the [Liquid Governance page](https://app.folks.finance/algo-liquid-governance) on Folks Finance.
+2. Make sure to check the ‘Migrate to xALGO’ box.
+3. Click ‘Stake’ — sign with your wallet.
+4. Start collecting Staking Rewards immediately.
+
+### How to migrate a gALGO leverage position into a xALGO Ultrastake
+
+1. Visit the [Liquid Governance page](https://app.folks.finance/algo-liquid-governance) on Folks Finance.
+2. Scroll down and look at your leverage postion.
+3. Click "Ultrastake" — sign with your wallet.&#x20;
+4. Start collecting Staking Rewards immediately.
+# Lending Pools
+
+**Lending Pools** are an innovative tool made in collaboration with [Tinyman](https://app.tinyman.org/#/swap?asset_in=0\&asset_out=31566704) and [Pact.fi](https://app.pact.fi/). Lending pools allow liquidity providers to accrue yield from Folks Finance's lending pools and liquidity pools on a DEX at the same time by increasing the efficiency of deposited assets.
+
+**Lending Pools are DEX pools comprised of interest-bearing assets.**\
+If you use Lending Pools for ALGO-USDC, you will receive:
+
+* The interest from the ALGO deposit on Folks Finance.
+* The interest from the USDC deposit on Folks Finance.
+* The swap fees from the DEX pool.
+
+This innovation will grant **deeper liquidity**, **greater TVL** and **higher yield.**
+
+### How to Start with Lending Pools?
+
+#### Lending pools on PactFi
+
+{% embed url="<https://www.youtube.com/watch?v=Lo9y-5Ir5Fc>" %}
+
+#### Lending pools on Tinyman
+
+{% embed url="<https://www.youtube.com/watch?v=I7qBX8RUCUo>" %}
+
+1. Go to [app.folks.finance](https://app.folks.finance/deposit) and choose a pair of tokens to deposit in Lending Pools.
+2. After you click Deposit, you will be redirected to Pact or Tinyman.
+3. Choose the amount for providing liquidity.
+
+If you’re new to Folks Finance,[ start at the Academy](http://academy.folks.finance).
+# Ultraswap
+
+Folks Finance users often utilize loan looping as a strategy to increase their market exposure. UltraSwap has made this process much more convenient and efficient. With just a few clicks, users can now achieve their desired outcome. By utilizing [Loans](https://docs.folks.finance/functionalities/loan), [Flash Loans](#flash-loans) and [Folks Router](https://docs.folks.finance/functionalities/folks-router), users can perform an UltraSwap within a single transaction group, providing a quick and user-friendly experience while maintaining control over their token interactions.
+
+{% embed url="<https://www.youtube.com/watch?v=1B3_dQ47KyU>" %}
+
+### How to Open a Position
+
+1. Click on the "UltraSwap" button to view a list of available tokens
+2. Choose the desired action (Up, Down, or Convert) for the token you wish to interact with
+3. Type in the quantity of tokens to exchange and the [operation multiplier](#operation-multiplier) (operation multiplier only available for Up and Down)
+4. Choose between Stable and Variable APY&#x20;
+5. Click on the "Open Up/Down" button and confirm with your wallet
+6. Sign with your wallet
+
+The expected outputs of the operation will depend on the token price’s change over time.
+
+### How to Close a Position
+
+1. In the “Your Ultraswap Positions” click on the position you want to close
+2. Click on the “Bin” logo
+3. Click on Close
+4. Sign with your wallet
+
+### Operation Multiplier&#x20;
+
+Operation Multiplier refers to the practice of using Folks Finance's lending-related smart contracts to borrow funds to increase the size of the position. The multiplier allows users to control a more significant position with a relatively smaller amount of their own capital.&#x20;
+
+For example, if a user has a 2x multiplier (2:1), it means that for every $1 of their asset, they control a $2 position. If they have a margin of $1,000, with a 2x multiplier they control a position worth up to $2,000.
+
+### New Loan Types
+
+Two new loan types have been created to support the Down and Up operations. These loan types only allow a single collateral and single borrow to be present in a given loan. In addition, the liquidation bonus will be paid out proportionally according to the formula:
+
+$$
+collateral\ received = loan\ collateral \times \left(\frac{borrow\ repaid}{borrow\ balance}\right)
+$$
+
+The above formula should ensure that when a loan exceeds its max LTV ratio, the whole loan is effectively wiped out because its LTV ratio is unaffected from any liquidation.
+
+\
+The Up Loan Type allows all available tokens to be used as collateral and only USDC to be borrowable. The borrow factor for USDC will be 100%. This means that the maximum LTV ratio is defined as:
+
+$$
+Max\ LTV\ Ratio = CF
+$$
+
+Where:
+
+* CF  is the collateral factor of the collateralized asset
+
+This Down Loan Type allows only USDC to be used as collateral and all available tokens to be borrowable. The collateral factor for USDC will be 100%. This means that the maximum LTV ratio is defined as:
+
+$$
+Max\ LTV\ Ratio = \frac{1}{BF}
+$$
+
+Where:
+
+* BF is the borrow factor of the borrowed asset
+
+### Flash Loans
+
+Flash loans are unique loans that must be repaid within the same transaction block. This requires users to possess the necessary funds for repayment before the transaction block is finalized. Flash loans are commonly used for quick token interactions and adjustments.
+
+In the context of UltraSwap, users can utilize a flash loan to temporarily access the desired asset, complete the operations, and then repay the loan using the proceeds. This can be accomplished within a single transaction group.
+
+### Up Parameters
+
+Liquidation bonus defined as:
+
+$$
+collateral\ received = loan\ collateral \times \left(\frac{borrow\ repaid}{borrow\ balance}\right)
+$$
+
+| Asset | Collateral Factor | Borrow Factor | Collateral Cap ($) | Liquidation Max | Liquidation Fee | Max Multiplier | Max starting Multiplier |
+| ----- | ----------------- | ------------- | ------------------ | --------------- | --------------- | -------------- | ----------------------- |
+| USDC  | N/A               | 100%          | N/A                | 100%            | N/A             | N/A            | N/A                     |
+| ALGO  | 82.5%             | N/A           | 200,000            | N/A             | 10%             | 5.71           | 5                       |
+| goBTC | 90%               | N/A           | 50,000             | N/A             | 10%             | 10             | 8                       |
+| goETH | 90%               | N/A           | 50,000             | N/A             | 10%             | 10             | 8                       |
+| wBTC  | 90%               | N/A           | 50,000             | N/A             | 10%             | 10             | 8                       |
+| wETH  | 90%               | N/A           | 50,000             | N/A             | 10%             | 10             | 8                       |
+
+### Down Parameters
+
+Liquidation bonus defined as:
+
+$$
+collateral\ received = loan\ collateral \times \left(\frac{borrow\ repaid}{borrow\ balance}\right)
+$$
+
+| Asset | <p>Collateral</p><p>Factor</p> | Borrow Factor | Collateral Cap ($) | Liquidation Max | Liquidation Fee | Max Multiplier | Max starting Multiplier |
+| ----- | ------------------------------ | ------------- | ------------------ | --------------- | --------------- | -------------- | ----------------------- |
+| USDC  | 100%                           | N/A           | 400,000            | N/A             | 10%             | N/A            | N/A                     |
+| ALGO  | N/A                            | 121.21%       | N/A                | 100%            | N/A             | 4.71           | 4                       |
+| goBTC | N/A                            | 111.11%       | N/A                | 100%            | N/A             | 9              | 7                       |
+| goETH | N/A                            | 111.11%       | N/A                | 100%            | N/A             | 9              | 7                       |
+| wBTC  | N/A                            | 111.11%       | N/A                | 100%            | N/A             | 9              | 7                       |
+| wETH  | N/A                            | 111.11%       | N/A                | 100%            | N/A             | 9              | 7                       |
+# Folks Router
+
+{% embed url="<https://folksrouter.io/>" %}
+
+### Introduction
+
+Folks Router is a DEXs aggregator that allows users to swap tokens across multiple decentralized exchanges (DEXs) on the Algorand blockchain. This means that users can get the best possible price for their swaps, as Folks Router will automatically compare prices across various DEXs. It also supports split routing and multi-swap paths.
+
+### How to use Folks Router
+
+To use Folks Router, simply connect your Algorand wallet to the Folks Finance website. Then select the “Swap” item in the navigation menu at the top of the page. Choose which assets you would like to swap, the amount to swap and the maximum slippage. When you are ready, confirm the swap and sign the requested transactions.
+
+The Folks Router is also fully integrated into the Folks Finance dapp. Operations such as: “Swap and Deposit”, “Swap Collateral”, “Repay with Collateral” and “Buy/Sell gALGO” all use the Folks Router to ensure you get the best possible rates.&#x20;
+
+{% hint style="info" %}
+**Slippage**&#x20;
+
+There is always a risk of slippage when swapping tokens. Slippage occurs when the price of a token changes between the time that you initiate a swap and the time that the swap is executed. This can happen for a number of reasons, such as market volatility or changes in liquidity.
+
+You can set the tolerance limit you consent to have for your requested swap. If the price change is greater than the limit set, then the transaction will fail and no funds will leave your wallet.
+{% endhint %}
+
+### Supported DEXs
+
+Folks Router currently supports the following DEXs on the Algorand blockchain:
+
+* [Tinyman](https://tinyman.org/)
+* [Pact](https://www.pact.fi/)
+* [Humble](https://www.humble.sh/)
+
+Notably, Folks Router includes [Lending Pools](https://docs.folks.finance/functionalities/lending-pools) in its asset pairs, which offers another layer of liquidity and generates fees for those providing liquidity in Lending Pools.
+
+### How does it work?
+
+When swapping, Folks Router supports split routing up to 4 paths, and 3 swaps per route, with the potential to expand these capabilities further. Folks Router supports both fixed-input and fixed-output swaps, meaning you will always receive exactly what you want.
+
+Transactions are built compactly in Folks Router, which offers two distinct benefits: reduced transaction fees and increased opportunities for composability. These features, especially the latter, pave the way for more progressive and user-friendly products than Folks has ever launched before.
+
+Folks Router is fully integrated into the Folks Finance dApp, which makes it easy for users to swap tokens. Actions such as swapping collateral, swapping borrowed assets, and swapping gALGO will benefit from the improved efficiency of the Folks Router. Assets and pools are also dynamically updated, highlighting the moment’s popular trading pairs and tokens.
+
+### Fees
+
+Folks Router charges a 0.1% flat fee on the swap output amount, which should be significantly lower than the amount of savings it brings.
+# No code
+
+{% embed url="<https://www.youtube.com/watch?v=txg3SJBzPdk>" %}
+
+In Q4 2023, 70,000 ALGO have been allocated from Folks Finance’s [Targeted DeFi Rewards](https://www.algorand.foundation/news/targeted-defi-rewards-implementation-report-1) to incentivize participation in Algorand consensus. The rewards will be distributed solely based on how many blocks users produce.
+
+Participating in Algorand consensus means properly staking ALGO through a [node](https://www.algorand.foundation/news/what-is-a-node-in-blockchain). The ALGO will then be eligible to propose the creation of blocks or vote on the approval status of blocks.&#x20;
+
+Read the details about eligibility in our [Medium article](https://medium.com/@folksfinance/how-to-join-algorand-consensus-to-earn-rewards-from-folks-finance-16d3fd957e00).
+
+Here are the steps to join Consensus and start receiving rewards through Folks Finance
+
+1. **Mint gALGO**
+
+Users must be committed to Liquid Governance by minting gALGO. The opportunity to mint gALGO is only available during the first two weeks of each quarter, coinciding with the opening of a new Algorand governance period. If users do not currently have any minted gALGO, they will not be able to earn consensus rewards through Folks Finance until they get another chance to mint gALGO.
+
+2. **Click on “◻ Consensus”**
+
+In the corner of the "Your Commitment" box, users should see the word "Consensus" next to an icon of a cube. Users can click on this to open the modal where they will enter the necessary information to join consensus. It is important to ensure that the wallet used to mint gALGO is connected to the Folks app.
+
+### Options for how to join consensus&#x20;
+
+{% hint style="info" %}
+Folks Finance **does not promote** these community-built solutions and recommends that individuals do research before initiating use.
+{% endhint %}
+
+### Austs’ One-Click Node
+
+1. Navigate to <https://github.com/AustP/austs-one-click-node>.
+2. Read the [README.md](https://github.com/AustP/austs-one-click-node/blob/main/README.md) text.
+3. Navigate to the [releases page](https://github.com/AustP/austs-one-click-node/releases) and download the version compatible with your operating system.
+
+6. Open and install the downloaded file.
+7. Open the Austs’ One-Click Node application.
+8. Allow node to sync.
+
+*This may take some time. Do not close the application or shut down your operating system while the node is syncing.*
+
+9. Open on the consensus modal on Folks Finance and copy the Escrow Address.
+10. Click the blue wallet button on Austs’ One-Click Node.
+
+* Click “Add” next to “Watch”.
+* Paste the escrow wallet you copied from Folks Finance.
+* Click “Add” again.
+
+11. Click “Generate Keys” and wait a few minutes for the generation to complete.
+12. Copy and paste the following from Austs’ One-Click Node into the modal on Folks Finance:
+
+* `Vote Key`
+* `Selection Key`
+* `State Proof Key`
+* `Vote First Round (copy the number)`
+* `Vote Last Round (copy the number)`
+* `Vote Key Dilution (copy the number)`
+
+13\. Click “Register” on Folks Finance’s Consensus Modal.
+
+* *Your node should show online status within 60 seconds. After about 300 rounds, which means 300 blocks, you will begin to see your “Blocks Proposed” and “Blocks Voted” metrics go up. With block times currently about 3.4 seconds, going online should take about 15–20 minutes.*\
+  \&#xNAN;*“Blocks Proposed” and “Blocks Voted” will only go up if enough ALGO is staked.*
+* *Low amounts of ALGO may only vote a handful of times and may not propose a block.* [*Click here to check Metrika.co*](https://app.metrika.co/algorand/dashboard/consensus-participation?tr=1d)*, which will show the minimum required stake to propose a block.*
+
+{% hint style="info" %}
+**Important information:**&#x20;
+
+When using Austs’ One-Click Node, the app MUST STAY ON AT ALL TIMES to continue running the node. Quitting the app, closing, or turning off your computer will interrupt the node’s connection.\
+\
+If your local instance of Austs’ One-Click Node is closed or goes offline, but your commitment is still registered online on Folks Finance, this is considered harmful action to the network and will disqualify you from earning any Consensus Rewards through Folks Finance during that quarter.\
+\
+Keep track of the “Vote Last Round”, and regenerate your keys before that round comes to pass. It’s recommended to regenerate keys at the start of each governance period.
+{% endhint %}
+
+### A-Wallet
+
+Built by Vote Coin Founder Ludo Scholtz, A-Wallet is an Algorand wallet which offers the ability to directly connect to consensus. It’s compatible with Folks Finance consensus as well. To get started:
+
+Check out the video: <https://youtu.be/WP34oa2tVHk>
+
+1. Navigate to <https://www.a-wallet.net/>.
+2. Click “New Wallet”.
+3. Set a name and password for the wallet.
+4. Click “New Account” in the top menu bar.
+5. Click either “Create basic account”,“Import Account”, create multisignature account or import ledger account. *The wallet you use will need to be the wallet through which you minted gALGO.*
+
+* If you choose “Create Basic Account”, record and store your 25-word seed phrase somewhere safe.
+* Click “Start the Challenge” and complete it.
+* If you choose “Import Account”, import a 25-word seed phrase from a previously created wallet.
+* If you choose HW — Ledger account, you can use folks finance services with ledger or multisig account protected by ledgers
+
+6. Create votekey, selection key and another key registration at one of the public Algorand nodes [AlgorandPublicData/participation/mainnet-v1.0/public-participation-providers.json at main · scholtz/AlgorandPublicData (github.com)<br>](https://github.com/scholtz/AlgorandPublicData/blob/main/participation/mainnet-v1.0/public-participation-providers.json)For example <https://kmd.h2.a-wallet.net/swagger/index.html>
+7. Go to <https://app.folks.finance/>, authenticate using Wallet Connect 2 , enter your key registration parameters, and make your account online.
+
+{% hint style="info" %}
+**Important information:**
+
+Keep track of the “Vote Last Round”, and regenerate your keys before that round comes to pass. Make sure you watch and follow the video provided by Ludo Scholtz, linked above the instructions, to make sure you’re joining correctly.
+{% endhint %}
+# Community treasury
+
+Folks Finance believes that transparency is a key pillar, so we have given the users the opportunity to **always keep track of the protocol revenue**.&#x20;
+
+The treasury is used to cover potential hacks and other operations, subject to community approval
+
+
+### Where the revenue comes from?
+
+Folks Finance revenue comes from different sources:
+
+* borrow interests,
+* liquidation fees,
+* liquidation bots,
+* flash loan,
+* Liquid Governance fees,
+* swap fees.
+# Aeneas liquidity program
+
+The 300M Viridis Fund launched by the Algorand Foundation, is the official incentive program focused on significantly increasing the Total Value Locked on the Algorand blockchain. Phase II of this initiative is the [Aeneas Liquidity Program](https://algorand.foundation/news/viridis-phase-ii-aeneas).
+
+The Algorand Foundation awarded Folks Finance with **2 Million ALGO** to incentivize early users, and bootstrap protocol operations. The primary goal of this initiative is to attract liquidity to boost the Algorand DeFi ecosystem and establish synergies among several dApps built on top of the Algorand blockchain.
+
+Folks Finance distributes Aeneas ALGOs through:
+
+* Partial payback of borrowing interests,
+* Staking,
+* ALGO Liquid Governance,
+* gALGO bullish bounty,
+* gALGO pools on DEXs.
+
+### Algorand ecosystem&#x20;
+
+With the precise goal of level-up the Algorand ecosystem and its TVL, Folks Finance has opened collaborations with [Tinyman](https://tinyman.org/) and [Pact](https://www.pact.fi/) for the distribution of Aeneas incentives in ALGO/gALGO pools on those platforms.&#x20;
+
+# Aeneas liquidity program
+
+<figure><img src="https://1077363812-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FojwJy0FvSV3FPExt4uaP%2Fuploads%2FfwA77eODPwfkmCrHraKz%2Fimage.png?alt=media&#x26;token=eba0482d-3eab-407e-a062-58f2f59feb5d" alt=""><figcaption></figcaption></figure>
+
+The 300M Viridis Fund launched by the Algorand Foundation, is the official incentive program focused on significantly increasing the Total Value Locked on the Algorand blockchain. Phase II of this initiative is the [Aeneas Liquidity Program](https://algorand.foundation/news/viridis-phase-ii-aeneas).
+
+The Algorand Foundation awarded Folks Finance with **2 Million ALGO** to incentivize early users, and bootstrap protocol operations. The primary goal of this initiative is to attract liquidity to boost the Algorand DeFi ecosystem and establish synergies among several dApps built on top of the Algorand blockchain.
+
+Folks Finance distributes Aeneas ALGOs through:
+
+* Partial payback of borrowing interests,
+* Staking,
+* ALGO Liquid Governance,
+* gALGO bullish bounty,
+* gALGO pools on DEXs.
+
+# Airdrop
+
+Claim your token here:
+
+{% embed url="<https://claim.folks.finance/en>" %}
+
+The Folks Finance airdrop is designed to reward the most active and engaged users while ensuring a fair and inclusive distribution for the entire community.
+
+***
+
+#### Distribution Methodology
+
+Season 1 of the airdrop distributes 1,646,479 FOLKS tokens (3,29% of total supply), allocated across several eligibility criteria: Folks Points, Founders Pass NFT holders, and partner campaign winners (Okx Wallet, Haha Wallet, Zerion Wallet, Gate Wallet, Airaa mindshare campaign, Orbiter campaign, Galxe campaign).
+
+Snapshot was taken on October 24th, 2025, at \~11:00 UTC. Points or NFTs obtained after this snapshot already count toward eligibility for future seasons.
+
+Folks Points allocations are determined by users’ performance in the Leaderboard campaign, using a natural logarithm function to balance score disparities between top and mid-tier participants. Minimum eligibility is 1,000,000 points.
+
+Each Founders Pass NFT grants 30 $FOLKS, cumulative by quantity. Addresses that also have ≥ 1 M points receive a bonus based on their NFT tier:
+
+* 1 or more Silver NFTs → +10 $FOLKS
+* 1 or more Gold NFTs → +20 $FOLKS
+* 1 or more Black NFTs → +30 $FOLKS
+
+If an NFT was held before the snapshot but is not linked to an xChain account or Algorand address, the allocation doesn’t show in the checker and won’t be possible to claim manually, but will be airdropped directly to that wallet shortly after claim goes live.
+
+Partner campaign and NFT allocations are not subject to the Instant / Linear Unlock claim options — they are fully claimable immediately in both cases.
+
+Rewards from Zerion Wallet and the Airaa mindshare campaign will be distributed directly by them. Follow their official channels for updates.
+
+***
+
+#### Claiming Options
+
+Eligible users receive the airdrop full amount only if they decide to opt for a 3-month linear unlock. Alternatively, users have the option to instant claim and receive a partial amount.
+
+The claim window (for both options) runs from November 6, 13:00 UTC to December 16, 14:00 UTC.\
+For clarity, in the examples we will use a scenario where User A is eligible for a total airdrop allocation of 100 FOLKS.
+
+**Instant Claim**\
+Users receive 20% of their allocation immediately, with no further action required after claiming.
+
+E.g. User A decides to Instant Claim and receives only 20 FOLKS from the total 100 FOLKS allocation.
+
+**Linear Unlock Claim**
+
+Users receive 10% of their allocation immediately, and the remaining 90% unlocks linearly over 90 days from the beginning of the unlock period.\
+The unlock period runs from December 16th, 2025, at 14:00 UTC to March 16th, 2026, at 14:00 UTC, users can claim unlocked tokens at any time during this period.\
+The claiming window will close on March 31st, 2026, at 14:00 UTC. Any unclaimed tokens after this date will be lost.
+
+E.g. User A decides to opt for the Linear Unlock Claim. They receive 10 FOLKS immediately, then 1 FOLKS per day over the 90-day unlock period.
+
+{% hint style="warning" %}
+**General warnings:**
+
+* Users must choose between Instant Claim and Linear Unlock Claim before December 16, 2025, at 13:00 UTC. Failure to make a choice by this deadline results in permanent loss of the entire airdrop allocation.
+* Once a claim option is selected and confirmed, it cannot be changed.
+* The Linear Unlock period begins on December 16, 2025, at 14:00 UTC, and continues for 90 days until March 16, 2026, at 14:00 UTC.
+* Once the unlock period ends, users have until March 31, 2026, at 14:00 UTC to claim any remaining unlocked tokens. Any unclaimed tokens after this date will be permanently lost.
+  {% endhint %}
+
+#### List of the contracts the user interacts with for the airdrop:
+
+* Avalanche: 0xf1af32bD9978eC0Fcbc2b382EA8a28aa3c595c39
+* Ethereum, Base, Arbitrum, BNB Chain, Polygon, Sei EVM: 0xEA87695E4b95109F333997Aa9B306dcA9EBFa69B
+* Algorand 3301499411
+
+FOLKS token:
+
+* Avalanche, Ethereum, Base, Arbitrum, BNB Chain, Polygon, Sei EVM: 0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B
+* Algorand 3203964481
+# Utilities
+
+{% hint style="warning" %}
+Warning: some of the following utilities might still not be live
+{% endhint %}
+
+* **Folks Finance Governance** — enables certain active users to steer elements of future protocol development.
+* **Folks Router Discounted Fees** — applied to swap transactions through Folks Router on Algorand.
+* **Crosschain DEX Aggregator Discounted Fees** — applied to swap transactions through Li.Fi’s crosschain DEX aggregator on xChain.
+* **Folks xPortal Discounted Fees** — applied to bridging fees on xPortal (powered by Wormhole NTT).
+* **FOLKS as “Gas Token”** — reduce operation transaction fees on xChain by paying in $FOLKS.
+* **xGov Voting** — participate in xGov proposal votes on Algorand.
+* **Liquidity Incentives** — boost rewards for active market participation.
+* **Mobile App and Debit Card Perks** — discounted fees and tiered perks related to Folks Mobile.&#x20;
+* **Future Utilities** — additional use cases and expanded token utility will be introduced progressively, especially with the launch of Folks xChain V2.
